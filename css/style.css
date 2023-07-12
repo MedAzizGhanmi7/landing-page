@@ -1,12 +1,12 @@
 body {
-margin: 0;
-padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 nav {
     display: flex;
-    gap: 18px;   
-    flex: 1;
+    gap: 18px;
+    
 }
 
 .hero {
@@ -19,7 +19,7 @@ nav {
     font-size: 24px;
     color: #FAF9F8;
     font-weight: bolder;
-    flex: 1;
+    
 }
 
 .sec {
@@ -31,7 +31,7 @@ nav {
     font-size: 48px;
     font-weight: bolder;
     color: #FAF9F8;
-    flex: 1;
+    
 }
 
 .left {
@@ -39,33 +39,31 @@ nav {
     flex-direction: column;
     width: 50%;
     margin-right: 30px;
-    flex: 1;
+    
 }
 
 .first-button {
     background-color: #3882F6;
     color: #FAF9F8;
     width: 100px;
-    padding:10px 22px;
+    padding: 10px 22px;
     border-radius: 10px;
     border: 0;
     margin: 10px 0px;
     cursor: pointer;
-    flex: 1;
     font-weight: bolder;
-    
+
 }
 
 .container {
     display: flex;
-   margin: 50px 0px;
+    margin: 50px 0px;
 }
 
 .hero-img {
     height: 230px;
-    flex: 1;
     background-color: black;
-    
+
 }
 
 a {
@@ -78,7 +76,6 @@ a {
     color: #1F2937;
     display: flex;
     justify-content: center;
-    flex: 1;
 }
 
 .info {
@@ -112,8 +109,8 @@ a {
 .quote-section {
     display: flex;
     flex-direction: column;
-    padding: 64px 400px;;
-    background-color: #E5E7EB; 
+    padding: 64px 400px;
+    background-color: #E5E7EB;
     align-items: center;
 }
 
@@ -127,11 +124,49 @@ a {
 }
 
 .author {
-    font-weight: bolder;   
+    font-weight: bolder;
     font-size: 18px;
-    display:flex;
+    display: flex;
     justify-content: flex-end;
     flex: 1;
     width: 700px;
     margin: 16px;
+}
+
+
+.call-section {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 100px;
+    margin: 64px 400px;
+    border-radius: 15px;
+
+}
+
+.second-button {
+
+    background-color: #3882F6;
+    color: #FAF9F8;
+    width: 100px;
+    padding: 10px 22px;
+    border-radius: 10px;
+    border: 1px white solid;
+    margin: 10px 0px;
+    cursor: pointer;
+   
+    font-weight: bolder;
+    }
+
+.call-container {
+    display:flex;
+    flex-direction: column;
+    color:#E5E7EB ;  
+    font-size: 18px; 
+}
+
+.big {
+    font-weight: bolder;
+    font-size: larger;
 }
