@@ -13,6 +13,6 @@ To get started with the project, follow these steps:
 
 Feel free to modify the content, styling, and images according to your requirements. You can customize the colors, fonts, and other design elements by editing the CSS file (`style.css`).
 
-# Live-link
+## Live-link
 
 Live : https://medazizghanmi7.github.io/landing-page/
