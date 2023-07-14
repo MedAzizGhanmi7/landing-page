@@ -9,7 +9,7 @@ body {
     background-color: #1f2937;
     display: flex;
     flex-direction: column;
-    padding: 32px 400px;
+    padding: 32px;
 }
 
 nav {
@@ -30,7 +30,7 @@ nav {
     color: #E5E7EB;
 }
 
-.hero-heading{
+.hero-heading {
     font-size: 48px;
     font-weight: bolder;
     color: #f9faf8;
@@ -40,7 +40,7 @@ nav {
     background-color: #3382F6;
     color: #E5E7EB;
     border: 0;
-    padding: 10px 35px;    
+    padding: 10px 35px;
     border-radius: 10px;
     font-weight: bolder;
     font-size: medium;
@@ -50,24 +50,30 @@ nav {
 .hero-container {
     display: flex;
     margin: 64px 0px;
+    align-items: center;
+    justify-content: center;
+
+
 }
 
-.hero-img{
-    width: 50%;
-    border-radius: 150px;
+.hero-img {
+    max-width: 50%;
+    border-radius: 100px;
+    border: #3382F6 solid 4px;
+    max-height: 350px;
 }
 
 .left {
     width: 50%;
 }
 
-.hero-heading{
+.hero-heading {
     max-width: 70%;
 }
 
 .hero-text {
     max-width: 90%;
-    margin:20px 0px;
+    margin: 20px 0px;
 }
 
 .info {
@@ -75,6 +81,7 @@ nav {
     gap: 100px;
     justify-content: center;
     margin: 100px 0px;
+    flex-wrap: wrap;
 }
 
 .info-heading {
@@ -87,7 +94,7 @@ nav {
 
 .img {
     width: 150px;
-    border-radius: 100px;
+    border-radius: 70px;
 }
 
 .desc {
@@ -96,6 +103,7 @@ nav {
     font-size: 17px;
     color: #1f2937;
 }
+
 .card {
     width: 150px;
 }
@@ -106,7 +114,7 @@ nav {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 170px 400px;
+    padding: 170px;
 }
 
 .quote {
@@ -122,12 +130,13 @@ nav {
     display: flex;
     align-self: flex-end;
     margin-right: 40px;
+    margin-top: 16px;
 }
 
-.sec-button{
+.sec-button {
     background-color: #3382F6;
     color: #E5E7EB;
-    padding: 10px 35px;    
+    padding: 10px 35px;
     border-radius: 10px;
     font-weight: bolder;
     font-size: medium;
@@ -135,12 +144,12 @@ nav {
     border: 1px solid white;
 }
 
-.call-container{
+.call-container {
     background-color: #3382F6;
     padding: 40px 100px;
     border-radius: 30px;
     display: flex;
-    margin: 100px 400px;
+    margin: 100px;
     justify-content: space-between;
 }
 
@@ -156,7 +165,7 @@ nav {
     color: #E5E7EB;
 }
 
-footer{
+footer {
     background-color: #1f2937;
     display: flex;
     justify-content: center;
